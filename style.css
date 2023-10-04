@@ -8,10 +8,29 @@
 body {
     background: #080808;
     color: #fff;  
-    #header {
-        background-image: url(images/1111.png);
-    }
+}
 
+#header {
+    background-image: url(images/intro.gif);
+}
+
+#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(192, 192, 192, 0.5);
+}
+
+#bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%; 
+  min-height: 100%;
 }
 
 #header {
@@ -33,7 +52,7 @@ nav {
     flex-wrap: wrap;
 }
 
-.logo {image;
+.logo {
     width: 140px;
 }
 
